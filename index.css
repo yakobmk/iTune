@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .35s ease;
+}
+
+
+.iTunes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(3, 135, 168);
+    position: sticky;
+    top: 0;
+
+}
+
+.iTunes__header {
+    display: flex;
+    justify-content: center;
+    padding: 1.5%;
+    width: 100%;
+    margin: auto;
+}
+
+.iTunes__input {
+    width: 40%;
+    padding: .5%;
+    border-radius: 25px;
+    border: none;
+    /* transition: 2ms ease; */
+}
+
+.iTunes__input:hover {
+    width: 45%;
+    /* transition: 2ms ease; */
+
+}
+
+.btn {
+    padding: .5%;
+    margin-left: .5%;
+    border-radius: 25px;
+    border: none;
+}
+
+
+
+.collection__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.albums__found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+li {
+    list-style: none;
+}
+
+.collection__song {
+    width: 150px;
+    height: 200px;
+    border: 1px solid lightgray;
+    margin: 2%;
+    padding: .5%;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+}
+
+.collection__song:hover {
+    transform: scale(1.1);
+    border: 1px solid orange;
+}
+
+
+
+.img__text {
+    margin-top: 12.5%;
+
+}
+
